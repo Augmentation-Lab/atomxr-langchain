@@ -1,0 +1,68 @@
+Give me a small green cube.
+Make me a small green cube.
+Create a big orange sphere.
+Create a block of cheese.
+Create a gold coin.
+Create a small white cube.
+Create a red sphere.
+Make sphere21 blue.
+Delete cylinder53.
+Make a scoreboard variable that's set to one.
+Set object_num equal to three.
+Make the variable color equal to green
+Set seventeen to be the value of score
+Create a counter variable and set it to zero.
+Remove candle13 and increase the object_num variable by five if I hit the candle
+If you run into cheese2, then make apple1 turn red and play a hit sound effect
+When you touch collectible18 then remove the collectible and increase the scoreboard variable by one.
+If I touch cube7 then it turns purple.
+Whenever I touch sphere1 then make it have a nice red color.
+Once 30 seconds have passed, start playing beautiful melodies.
+If you run into sphere11 then decrease the lives variable by one.
+When cylinder13 runs into sphere20 cylinder13 turns yellow and sphere20 turns black.
+Make it so that enemy5 starts following me slowly.
+Make it so that cube2 chases me.
+Make the dog1 make dog noises
+Have the pan3 make cooking noises
+Make the octopus3 play a sound when the variable score hits 3.
+After 5 seconds, create a dog at the origin and make make the box3 change color to green.
+Make the person2 disappear
+Have the collectible item called coin3 go away
+After about ten seconds, have the collectible item called coin3 go away, but after thirty seconds, make it come back again
+After about five seconds, make octopus1 go away, but after ten seconds, have it reappear
+Make an octopus after 5 seconds
+Make the apple1 constantly stay 1 meter above me
+Every time I hit coin1, it should respawn a little further in front of me.
+Make it so that coin4 rotates continuously.
+apple1 should rotate in place
+Make box1 disappear if at least 5 seconds have passed and I’ve collided with it twice.
+After 2 seconds, create a sphere object.
+Make the octopus2 rotate very smoothly about the x-axis
+Give me 5 pieces of candy when the game starts
+Make the octopus5 disappear and play a noise after 4 seconds
+When the variable building is equal to 3, then make the table3 play a noise
+After 2 seconds, create a sphere object.
+Make the capsule4 change color after a few seconds
+Move the cube3 to left of cube4
+Play a snap sound after a few seconds.
+Move the apple2 forward for 5 seconds then to the left for 3 seconds
+Move the apple2 back for half a second then to the right for 3 seconds
+When the game starts, play scary music.
+Create a small red pyramid
+Make a big green cylinder
+Create a block of wood
+Create a silver coin
+Create a small black cube
+Create a yellow sphere
+Delete torus45
+Create a variable called "level" and set it to two
+Set "score" equal to fifteen
+Make the variable "difficulty" equal to "hard"
+Set "coins_collected" to be the value of "score"
+Create a variable called "lives" and set it to three
+When the player touches "powerup1", increase the "score" variable by five and play a powerup sound effect
+If the player runs into "enemy1", decrease the "lives" variable by one and play a hit sound effect
+When "object1" runs into "object2", change the color of "object1" to blue and "object2" to red
+Create a coin collecting system where the player's score increases by one and a coin sound effect plays when the player touches a "Coin" object
+Create an enemy collision system where the player's lives decrease by one and a hit sound effect plays when the player touches an "Enemy" object, and triggers a game over sound if the player runs out of lives
+Create a timer that plays a countdown sound effect at 60 seconds and a time up sound effect at 120 seconds, and triggers game over when the time runs out.
