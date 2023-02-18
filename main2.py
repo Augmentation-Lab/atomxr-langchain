@@ -53,20 +53,25 @@ tools = [
     Tool(
         name = "Code Generation",
         func= lambda query: code(query),
-        description="Use this more than other tools if you are unsure if you should use a tool which tool to use. Code generation.",
+        description="codegen",
     )
 ]
 memory = ConversationBufferMemory(memory_key="chat_history")
 llm=OpenAI(temperature=0)
 agent_chain = initialize_agent(tools, llm, agent="conversational-react-description", verbose=True, memory=memory)
 
-# while True:
-#     print("AI: " + agent_chain.run(input=input("Human: ")))
 
-with open('testcontext.txt', 'r') as file:
-    lines = file.readlines()
+codegening = True
 
-for line in lines:
-    print("Prompt: " + line)
-    print("AI: " + agent_chain.run(input=line))
+while True:
+    if codegening:
+        append = "codegen"
+    print("AI: " + agent_chain.run(input=append + input("Human: ")))
+
+# with open('testcontext.txt', 'r') as file:
+#     lines = file.readlines()
+
+# for line in lines:
+#     print("Prompt: " + line)
+#     print("AI: " + agent_chain.run(input=line))
 
