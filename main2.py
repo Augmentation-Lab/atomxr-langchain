@@ -9,6 +9,7 @@ import pickle
 from langchain.agents import tool
 import os
 from dotenv import load_dotenv
+from revChat import AskChat
 
 load_dotenv()
 
@@ -32,8 +33,8 @@ def documentation(query: str) -> str:
 
 @tool
 def code(query: str) -> str:
-    """Generates code based on query"""
-    return "OnStart(CreateObject(\"Object\"))"
+    """Calls ChatGPT to generate code or give ideas/clarification."""
+    return AskChat(query)
 
 # define tools
 search = SerpAPIWrapper()
@@ -54,6 +55,7 @@ tools = [
         name = "Code Generation",
         func= lambda query: code(query),
         description="codegen",
+        return_direct=True
     )
 ]
 memory = ConversationBufferMemory(memory_key="chat_history")
@@ -65,7 +67,7 @@ codegening = True
 
 while True:
     if codegening:
-        append = "codegen"
+        append = "codegen "
     print("AI: " + agent_chain.run(input=append + input("Human: ")))
 
 # with open('testcontext.txt', 'r') as file:
